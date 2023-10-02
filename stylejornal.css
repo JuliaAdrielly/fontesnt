@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@font-face {
+    font-family: 'minha fonte';
+    src: url('Saturday.otf');
+    }
+    @font-face {
+        font-family: ' fonte 2';
+        src: url( 'Signatra.otf');
+    }
+   
+
+ body{ 
+    background-image: url(WhatsApp\ Image\ 2023-10-02\ at\ 10.18.08.jpeg) ;
+}
+main{
+    width: 70vw;
+    margin-left: 15vw;
+    background-color:beige;
+    padding: 10px;
+    box-shadow: 20px 20px 20px rgba(17, 16, 16, 0.863);
+    border-style: solid;
+    border-color: rgba(17, 16, 16, 0.719);
+    border-width: 20px;
+
+
+}
+header{
+    background-color: aliceblue;
+}
+header h1{
+    text-align: center;
+    font-size: 30pt;
+    color: rgb(0, 0, 0); 
+    font-family: 'Lily Script One', cursive;
+}
+
+.secaojornal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+#secao1{
+    column-count: 4;
+    column-gap: 150px;
+    column-rule-style: solid;
+    column-rule-color: rgb(216, 22, 22);
+    column-rule-width: 20px;
+    padding: 20px; 
+    font-family: 'minha fonte'; 
+}
+
+#secao1 h2{
+    font-size:18pt ;
+    column-span:  all;
+    text-align: center;
+    font-family: ' fonte 2';
+}
+
+#secao2{
+    column-count: 2;
+    font-family: 'minha fonte';
+}
+#matao{
+    width: 30vw;
+    
+}
+#secao2 h2{
+    column-span: all ;
+    font-size: 18pt;
+    text-align: center;
+    font-family: ' fonte 2';
+  
+}
